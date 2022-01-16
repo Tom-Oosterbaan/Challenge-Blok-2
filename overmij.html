@@ -9,16 +9,41 @@
     <script src="js/functions.js"></script>
 </head>
 <body>
-    <header>
-        <a id="logo" href="index.html"><img src="images/logo.png"></a>
-        <nav>
-            <ul class="main-menu">
-                <li class="menu"><a href="overmij.html">Over Mij</a></li>
-                <li class="menu"><a href="projecten.html">Projecten</a></li>
-                <li class="menu"><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
+    <div class="wrapper">
+        <header>
+            <a href="index.html"><img id="logo" src="images/logo.png"></a> <!--logo is de link naar de home pagina-->
+            <nav>
+                <ul class="main-menu">
+                    <li class="menu"><a href="overmij.html">Over Mij</a></li>
+                    <li class="menu"><a href="projecten.html">Projecten</a></li>
+                    <li class="menu"><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <div id="overmij">
+                <div class="overmij-item">
+                    <img src="#">
+                    <div class="overmij-text">
+                        <p>Als Software Development student ben ik altijd nieuschierig naar hoe dingen werken en in elkaar zitten.</p>
+                    </div>
+                </div>
+                <div class="overmij-item"> 
+                    <div class="overmij-text2">  <!--plaatje aan de andere kant van tekst-->
+                        <p>In mijn vrije tijd speel ik graag videospellen...</p>
+                    </div>
+                    <img src="#">
+                </div>
+                <div class="overmij-item">
+                    <img class="blender" src="images/blender_logo.png">
+                    <div class="overmij-text">
+                        <p>...of werk ik aan spellen aanpassen of 3D modellen en texturen maken.</p>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
 </body>
 
 </html>
