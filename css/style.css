@@ -135,6 +135,11 @@ a:hover{
     width: 30%;
 }
 
+.xampp{
+    height: 10%;
+    width: 10%;
+}
+
 #logo{
     height: 60px; /* maakt logo kleiner*/
 }
