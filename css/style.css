@@ -30,9 +30,13 @@ header{
     background-color: white;
 }
 
-li{
-    display: inline-block;
-    padding-right: 20px;
+
+#logo{
+    height: 60px; /* maakt logo kleiner*/
+}
+
+#currentpage{
+    box-shadow: 0px 0px 0px 2px grey;
 }
 
 .naam .contact{
@@ -50,6 +54,7 @@ h1{
     background: -webkit-linear-gradient(#585858, #262626); /* van internet, geeft de tekst een gradient kleur*/
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    background-clip: 0;
     margin: 0;
     text-align: center;
 }
@@ -74,7 +79,7 @@ a:hover{
     color: #ca404f;
 }
 
-#overmij{
+#projecten{
     margin: 50px 200px 50px 200px;
     display: flex;
     justify-content: space-evenly;
@@ -90,6 +95,13 @@ a:hover{
     border-radius: 20px;
 }
 
+#overmij{
+    margin: 50px 200px 50px 200px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
 .overmij-text{
     width: 500px;
     margin-left: 30px;
@@ -102,13 +114,6 @@ a:hover{
     margin-right: 30px;
     font-size: 40px;
     color: white
-}
-
-#projecten{
-    margin: 50px 200px 50px 200px;
-    display: flex;
-    justify-content: space-evenly;
-    flex-direction: column;
 }
 
 .overmij-item{
@@ -140,8 +145,9 @@ a:hover{
     width: 10%;
 }
 
-#logo{
-    height: 60px; /* maakt logo kleiner*/
+.plaatje{
+    text-align: center;
+    margin-top: 40px;
 }
 
 .text{
@@ -150,8 +156,9 @@ a:hover{
     font-size: 30px;
 }
 
-#currentpage{
-    box-shadow: 0px 0px 0px 2px grey;
+li{
+    display: inline-block;
+    padding-right: 20px;
 }
 
 li a{
@@ -196,9 +203,4 @@ li a:hover{
     margin-left: auto;
     height: 80%;
     width: 80%;
-}
-
-.plaatje{
-    text-align: center;
-    margin-top: 40px;
 }
